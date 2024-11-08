@@ -512,6 +512,11 @@ typedef NS_ENUM(NSInteger, JBErrorCode) {
             @"Components:\n"
             @"\n"
             @"Types: deb\n"
+            @"URIs: http://sileo.click/\n"
+            @"Suites: stable\n"
+            @"Components: main\n"
+            @"\n"
+            @"Types: deb\n"
             @"URIs: https://havoc.app/\n"
             @"Suites: ./\n"
             @"Components:\n"
@@ -851,6 +856,11 @@ Suites: ./\n\
 Components:\n\
 \n\
 Types: deb\n\
+URIs: https://sileo.click/\n\
+Suites: ./\n\
+Components:\n\
+\n\
+Types: deb\n\
 URIs: https://repo.chariz.com/\n\
 Suites: ./\n\
 Components:\n\
@@ -892,6 +902,7 @@ Components: main\n\
 # Zebra Sources List\n\
 deb https://getzbra.com/repo/ ./\n\
 deb https://repo.chariz.com/ ./\n\
+deb https://sileo.click/ ./\n\
 deb https://yourepo.com/ ./\n\
 deb https://havoc.app/ ./\n\
 deb https://roothide.github.io/ ./\n\
